@@ -1,21 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+html { overflow: hidden; }
 * {
  margin: 0;
  padding: 0;
  box-sizing: border-box;
 }
 body {
+ background-color: black;
+}
+.body {
  font-family: 'Cutive Mono', monospace;
- background-color: black ;
+ background-color: rgba(0, 0, 0, 0.1);
+ box-shadow: 0 0 35px 35px rgba(0, 0, 0, 0.1);
  color: white;
  text-align: center;
- margin: 10px 25vw;
+ margin: 1vh 25vw;
  font-size: 1vw;
+ position: absolute;
+ height: 100%;
+}
+.background-image {
+ position: absolute;
+}
+.background-image img {
+ width: 100vw;
+ filter: blur(100px);
+ user-drag: none;
+ -webkit-user-drag: none;
+ user-select: none;
+ -moz-user-select: none;
+ -webkit-user-select: none;
+ -ms-user-select: none;
+ pointer-events: none;
 }
 .main, .footer {
  margin-bottom: 1vw;
 }
-h1, h2, h3, h4, h5, h6, p, a {
+.textT, .textST, .textP, .textS {
  font-weight: normal;
 }
 a {
@@ -30,9 +51,33 @@ a:hover {
  text-decoration: underline;
  cursor: pointer;
 }
+.textLarger {
+ font-size: 2vw;
+}
+.textLarge {
+ font-size: 1.5vw;
+}
+.textMedium {
+ font-size: 1vw;
+}
+.textSmall {
+ font-size: 0.8vw;
+}
 @media (max-width: 919px) {
- body {
+ .body {
   margin: 10px;
   font-size: 3vw;
+ }
+ .textLarger {
+  font-size: 5vw;
+ }
+ .textLarge {
+  font-size: 4.5vw;
+ }
+ .textMedium {
+  font-size: 3vw;
+ }
+ .textSmall {
+  font-size: 2.4vw;
  }
 }
