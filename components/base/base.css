@@ -24,7 +24,7 @@ body {
 }
 .background-image img {
  width: 100vw;
- filter: blur(100px);
+ filter: blur(70px);
  user-drag: none;
  -webkit-user-drag: none;
  user-select: none;
@@ -52,16 +52,16 @@ a:hover {
  cursor: pointer;
 }
 .textLarger {
- font-size: 2vw;
+ font-size: 1.6vw;
 }
 .textLarge {
- font-size: 1.5vw;
+ font-size: 1.3vw;
 }
 .textMedium {
  font-size: 1vw;
 }
 .textSmall {
- font-size: 0.8vw;
+ font-size: 0.7vw;
 }
 @media (max-width: 919px) {
  .body {
@@ -69,15 +69,15 @@ a:hover {
   font-size: 3vw;
  }
  .textLarger {
-  font-size: 5vw;
+  font-size: 3.6vw;
  }
  .textLarge {
-  font-size: 4.5vw;
+  font-size: 3.3vw;
  }
  .textMedium {
   font-size: 3vw;
  }
  .textSmall {
-  font-size: 2.4vw;
+  font-size: 2.7vw;
  }
 }
