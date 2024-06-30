@@ -50,36 +50,28 @@ a:hover {
  cursor: pointer;
 }
 .text-x-large {
- font-size: x-large;
+ font-size: 2.5vh;
+ font-weight: 400;
  margin: 3vh 0;
 }
 .text-large {
- font-size: large;
+ font-size: 2vh;
+ font-weight: 400;
  margin: 2vh 0;
 }
 .text-medium {
- font-size: medium;
+ font-size: 1.5vh;
+ font-weight: 400;
  margin: 1vh 0;
 }
 .text-small {
- font-size: small;
+ font-size: 1vh;
+ font-weight: 400;
  margin: 0.5vh 0;
 }
 @media (max-width: 919px) {
  .body {
   margin: 10px;
   font-size: 3vw;
- }
- .text-x-large {
-  font-size: 2.5vh;
- }
- .text-large {
-  font-size: 2vh;
- }
- .text-medium {
-  font-size: 1.5vh;
- }
- .text-small {
-  font-size: 1vh;
  }
 }
